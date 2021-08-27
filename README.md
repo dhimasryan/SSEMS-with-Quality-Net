@@ -11,3 +11,4 @@ You can download our environmental setup at Environment Folder and create the en
 ```js
 conda env create -f environment.yml
 ```
+**Steps**
