@@ -7,8 +7,14 @@ For more detail please check our <a href="https://www.isca-speech.org/archive_v0
 
 **Installation**
 
-You can download our environmental setup at Environment Folder and create the environment by using the following script.
+You can download our environmental setup at Environment Folder and use the following script.
 ```js
 conda env create -f environment.yml
 ```
 **Steps**
+1. We can use any clustering method to cluster the training data. In our implementation, we cluster the data based on the gender and SNR information. 
+2. For developing the speech enhancement models, we can use any available architecture. In our setup, we use BLSTM to train the clustered training data.
+3. For developing the Quality-Net model, please kindly refer to this <a href="https://github.com/JasonSWFu/Quality-Net" target="Quality-Net">Paper</a>
+4. SSEMS_Main.py to select the best model based on Quality-Net
+
+**Citation**
