@@ -18,7 +18,8 @@ conda env create -f environment.yml
 4. SSEMS_Main.py to select the best model based on Quality-Net
 
 **Citation**
-Please kindly cite our paper, if you find the code is useful.
+
+Please kindly cite our paper, if you find this code is useful.
 
 <a id="1"></a> 
 R. E. Zezario, S.-W. Fu, X. Lu, H.-M. Wang, and Y. Tsao, “Specialized
