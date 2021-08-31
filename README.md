@@ -18,3 +18,8 @@ conda env create -f environment.yml
 4. SSEMS_Main.py to select the best model based on Quality-Net
 
 **Citation**
+
+<a id="1"></a> 
+R. E. Zezario, S.-W. Fu, X. Lu, H.-M. Wang, and Y. Tsao, “Specialized
+Speech Enhancement Model Selection Based on Learned Non-Intrusive Quality Assessment Metric," in Proc. INTERSPEECH, pp.3168-
+3172, 2019.
