@@ -14,7 +14,7 @@ conda env create -f environment.yml
 **Steps**
 1. We can use any clustering method to cluster the training data. In our implementation, we cluster the data based on the gender and SNR information. 
 2. For developing the speech enhancement models, we can use any available architecture. In our setup, we use BLSTM to train the clustered training data.
-3. For developing the Quality-Net model, please kindly refer to this <a href="https://github.com/JasonSWFu/Quality-Net" target="Quality-Net">Quality-Net</a>
+3. For developing the Quality-Net model, please kindly refer to <a href="https://github.com/JasonSWFu/Quality-Net" target="Quality-Net">Quality-Net</a>
 4. SSEMS_Main.py to select the best model based on Quality-Net
 
 **Citation**
