@@ -4,38 +4,16 @@ ryandhimas@citi.sinica.edu.tw
 """
 
 import keras
-import matplotlib
-# Force matplotlib to not use any Xwindows backend.
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-from keras.utils import plot_model
-from keras.models import Sequential, model_from_json, Model
-from keras.layers import Layer
-from keras.layers.core import Dense, Dropout, Flatten, Activation, Reshape, Lambda
-from keras.layers.normalization import BatchNormalization
-from keras.layers.advanced_activations import ELU, PReLU, LeakyReLU
-from keras.activations import softmax
-from keras.layers.convolutional import Conv1D,Conv2D
-from keras.layers.pooling import GlobalAveragePooling1D
-from keras.optimizers import SGD
-from keras.callbacks import ModelCheckpoint
+from keras.models import model_from_json
 from keras import backend as K
-from keras.backend import squeeze
-from keras.layers import LSTM, TimeDistributed, Bidirectional, dot, Input
-from keras.constraints import max_norm
-from keras_self_attention import SeqSelfAttention
-import hdf5storage
-import tensorflow as tf
+
 import scipy.io
 import scipy.stats
 import librosa
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="7"  
-import time  
+os.environ["CUDA_VISIBLE_DEVICES"]="0"  
 import numpy as np
 import numpy.matlib
-import random
-import pdb
 import sys
 batch_size=1
 
